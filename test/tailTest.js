@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
-const tail = require('../tail');
+const _ = require('../index');
 
-const result = tail(["Hello", "Lighthouse", "Labs"]);
+const result = _.tail(["Hello", "Lighthouse", "Labs"]);
 
 describe('#tail', () => {
   it('return 2 for array length', () => {
