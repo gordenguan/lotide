@@ -24,17 +24,31 @@ Documentation
 The following functions are currently implemented:
 
 head: find the first element in an array
+
 tail: return an array without the first element
+
 middle: find the middle element in an array
+
 assertArraysEqual: compare two array
+
 assertEqual: compare two inputs
+
 countLetters: count how many letter in a string
+
 countOnly: count occurrence of element
+
 eqArrays: compare array
+
 eqObjects: compare object
+
 findKey: find the key in an object
+
 findKeyByValue: find the key according to the value
+
 letterPositions: find the index of letters
+
 map: loop through array and modify each element
+
 takeUntil: return array that satisfy the condition
+
 without: remove common element in two array
