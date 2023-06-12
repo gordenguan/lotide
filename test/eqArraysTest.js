@@ -1,3 +1,4 @@
+//require eqArrays and assertEqual function from index.js for testing
 const _ = require('../index');
 
 

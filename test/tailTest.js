@@ -1,8 +1,10 @@
+//require chai.assert for testing and function from index.js
 const assert = require('chai').assert;
 const _ = require('../index');
 
 const result = _.tail(["Hello", "Lighthouse", "Labs"]);
 
+//use describe and it to test tail function
 describe('#tail', () => {
   it('return 2 for array length', () => {
     assert.deepEqual(result.length, 2);

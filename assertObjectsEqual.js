@@ -1,3 +1,4 @@
+//compare arrays
 const eqArrays = function(arr1, arr2) {
   if (JSON.stringify(arr1) === JSON.stringify(arr2)) {
     return (true);
@@ -6,6 +7,7 @@ const eqArrays = function(arr1, arr2) {
   }
 };
 
+//compare obj with their keys' length and values
 const eqObjects = (object1, object2) => {
   for (let key in object1) {
     if (Object.keys(object1).length === Object.keys(object2).length && eqArrays((object1[key]), (object2[key]))) {
@@ -16,6 +18,7 @@ const eqObjects = (object1, object2) => {
   }
 };
 
+//compare obj with above function and log out the result
 const assertObjectsEqual = function(actual, expected) {
   const inspect = require('util').inspect;
   if (eqObjects(actual, expected)) {

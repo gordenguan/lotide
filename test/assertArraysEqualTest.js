@@ -1,3 +1,4 @@
+//require eqArrays and assertArraysEqual function from index.js for testing
 const eqArrays = require('../eqArrays');
 const assertArraysEqual = require('../assertArraysEqual');
 

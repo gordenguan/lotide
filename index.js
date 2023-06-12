@@ -1,3 +1,5 @@
+//functions grab from file
+
 const head   = require('./head');
 const tail   = require('./tail');
 const middle = require('./middle');
@@ -14,6 +16,8 @@ const letterPositions = require('./letterPositions');
 const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
+
+//export shorthand obj with functions
 
 module.exports = {
   head,

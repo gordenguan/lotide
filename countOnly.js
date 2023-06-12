@@ -5,9 +5,9 @@ const countOnly = (allItems, itemsToCount) => {
   for (const item of allItems) {
     if (itemsToCount[item]) {
       if (results[item]) {
-        results[item] += 1;
+        results[item] += 1;     //increase item count if already exist
       } else {
-        results[item] = 1;
+        results[item] = 1;      //set item: 1 in results
       }
     }
   }
@@ -15,4 +15,4 @@ const countOnly = (allItems, itemsToCount) => {
   return results;
 };
 
-module.exports = countOnly;
+module.exports = countOnly;   //export function
